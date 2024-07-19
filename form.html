@@ -24,8 +24,10 @@
     </nav>
     <br> <br>
     <h4 style="margin-left: 10px;">Please fill the form above and you wil get contacted shortly.</h4> <br>
+    <!-- class w-50 determines the width of element, the number w being the % of width, in multiples of25 only -->
     <form style="margin-left: 10px;" action="" class="w-50" >
         <label for="postTitle" class="form-label">Full Name</label> <br>
+        <!-- mb being margin bottom -->
         <div class="input-group mb-3">
             <input required type="text" class="form-control " placeholder="First Name" aria-label="Username">
             <span class="input-group-text">|</span>
@@ -42,6 +44,7 @@
         <textarea class="form-control" name="" required id="textarea" placeholder="Type here"></textarea> <br>
        
         <div >
+            <!-- btn and btn-primary gives styling of a generic button -->
             <input id="submit" class="btn btn-primary" type="submit" onclick=" alert('Form Submitted!')">
         </div>
     </form> 
